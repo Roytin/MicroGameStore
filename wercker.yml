@@ -25,6 +25,6 @@ deploy:
     - internal/docker-push:
       username: $USERNAME
       password: $PASSWORD
-      repository: crazor6/micro-game-store
+      repository: crazor6/microgamestore
       registry: https://registry.hub.docker.com
       entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
